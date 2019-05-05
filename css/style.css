@@ -24,6 +24,9 @@ body {
   #video-wrap {
     display: none;
   }
+  #bg-video {
+    display: none;
+  }
   header {
     width: 100%;
     background-color: white;
@@ -530,11 +533,16 @@ body {
     opacity: 0.5;
   }
   .main-contents__contact .contact-image {
+    width: 30%;
     float: right;
+    margin: 2.4rem auto;
   }
   .main-contents__contact .contact-image img {
-    width: 10.0rem;
-    border-radius: 50%;
+    padding: 1.5%;
+    border: 0.75% solid #ccc;
+    background: #fff;
+    box-shadow: 0.1rem 0.1rem 1rem rgba(0, 0, 0, 0.15);
+    width: 90%;
   }
   .works-contents {
     width: 95%;
@@ -1196,12 +1204,14 @@ body {
   }
   .main-contents__contact .contact-info-area {
     overflow: hidden;
-    width: 80%;
     margin: 0 auto;
+    width: 80%;
   }
   .main-contents__contact .contact-info-area .contact-text {
+    float: right;
     margin-top: 4.0rem;
     display: block;
+    width: 70%;
   }
   .main-contents__contact .contact-info-area .contact-text dl {
     margin: 0 auto 2.8rem auto;
@@ -1224,11 +1234,16 @@ body {
     opacity: 0.5;
   }
   .main-contents__contact .contact-image {
+    width: 30%;
     float: right;
+    margin: 4.2rem auto;
   }
   .main-contents__contact .contact-image img {
-    width: 10.0rem;
-    border-radius: 50%;
+    padding: 1.5%;
+    border: 0.75% solid #ccc;
+    background: #fff;
+    box-shadow: 0.2rem 0.2rem 1rem rgba(0, 0, 0, 0.2);
+    width: 90%;
   }
   .works-contents {
     width: 95%;
@@ -1806,7 +1821,6 @@ body {
     display: block;
     text-align: center;
     font-size: 1.8rem;
-    margin-bottom: 4.2rem;
     line-height: 2.8rem;
     font-weight: 400;
   }
@@ -1816,7 +1830,8 @@ body {
   .main-contents__contact .contact-info-area .contact-text {
     float: right;
     display: block;
-    width: 75%;
+    width: 70%;
+    margin-top: 4.8rem;
   }
   .main-contents__contact .contact-info-area .contact-text dl {
     margin: 0 auto 2.4rem auto;
@@ -1841,12 +1856,21 @@ body {
     opacity: 0.5;
   }
   .main-contents__contact .contact-info-area .contact-image {
-    width: 25%;
+    width: 30%;
     float: right;
+    margin-bottom: 4.2rem;
+    margin-top: 4.2rem;
   }
   .main-contents__contact .contact-info-area .contact-image img {
-    width: 10.0rem;
-    border-radius: 50%;
+    padding: 1.5%;
+    border: 0.75% solid #ccc;
+    background: #fff;
+    box-shadow: 0.5rem 0.5rem 2rem rgba(0, 0, 0, 0.2);
+    width: 80%;
+    -moz-transform: rotate(2deg);
+    -webkit-transform: rotate(2deg);
+    -ms-transform: rotate(2deg);
+    transform: rotate(2deg);
   }
   .main-contents__skill {
     margin: 7.2rem 16% 10.0rem 7%;
