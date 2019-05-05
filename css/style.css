@@ -636,7 +636,6 @@ body {
   footer .horizontal_scroll_wrap {
     overflow: hidden;
     border-bottom: .1rem solid #231815;
-    overflow-x: scroll;
     -webkit-overflow-scrolling: touch;
   }
   footer .horizontal_scroll_wrap ul.scroll_lst {
@@ -1337,7 +1336,6 @@ body {
   footer .horizontal_scroll_wrap {
     overflow: hidden;
     border-bottom: .1rem solid #231815;
-    overflow-x: scroll;
     -webkit-overflow-scrolling: touch;
   }
   footer .horizontal_scroll_wrap ul.scroll_lst {
@@ -2077,7 +2075,6 @@ body {
   footer .horizontal_scroll_wrap {
     overflow: hidden;
     border-bottom: .1rem solid #231815;
-    overflow-x: scroll;
     -webkit-overflow-scrolling: touch;
   }
   footer .horizontal_scroll_wrap ul.scroll_lst {
