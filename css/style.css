@@ -503,26 +503,25 @@ body {
     font-size: 1.6rem;
     line-height: 2.4rem;
     font-weight: 400;
-    margin-bottom: 0.8rem;
+    margin-bottom: 1.8rem;
   }
   .main-contents__contact .contact-info-area {
     overflow: hidden;
   }
   .main-contents__contact .contact-info-area .contact-text {
-    margin-top: 4.0rem;
+    width: 100%;
     display: block;
   }
   .main-contents__contact .contact-info-area .contact-text dl {
-    margin: 0 auto 2.4rem auto;
     display: block;
     width: 100%;
   }
   .main-contents__contact .contact-info-area .contact-text dl dt {
-    margin: 0 0% .6rem 0%;
+    margin: 0 0 .6rem 1.2rem;
     font-size: 1.8rem;
   }
   .main-contents__contact .contact-info-area .contact-text dl dd {
-    margin-left: 2.2rem;
+    margin-left: 3.2rem;
     font-size: 1.8rem;
   }
   .main-contents__contact .contact-info-area .contact-text dl dd a {
@@ -533,16 +532,20 @@ body {
     opacity: 0.5;
   }
   .main-contents__contact .contact-image {
-    width: 30%;
-    float: right;
-    margin: 2.4rem auto;
+    overflow: hidden;
   }
   .main-contents__contact .contact-image img {
+    float: right;
     padding: 1.5%;
     border: 0.75% solid #ccc;
     background: #fff;
     box-shadow: 0.1rem 0.1rem 1rem rgba(0, 0, 0, 0.15);
-    width: 90%;
+    width: 40%;
+    margin: 1.8rem;
+    -moz-transform: rotate(2deg);
+    -webkit-transform: rotate(2deg);
+    -ms-transform: rotate(2deg);
+    transform: rotate(2deg);
   }
   .works-contents {
     width: 95%;
@@ -1207,7 +1210,7 @@ body {
     width: 80%;
   }
   .main-contents__contact .contact-info-area .contact-text {
-    float: right;
+    float: left;
     margin-top: 4.0rem;
     display: block;
     width: 70%;
@@ -1218,7 +1221,7 @@ body {
     width: 100%;
   }
   .main-contents__contact .contact-info-area .contact-text dl dt {
-    margin: 0 0% 1.0rem 0%;
+    margin: 0 0 1.0rem 0;
     font-size: 1.8rem;
   }
   .main-contents__contact .contact-info-area .contact-text dl dd {
@@ -1234,7 +1237,7 @@ body {
   }
   .main-contents__contact .contact-image {
     width: 30%;
-    float: right;
+    float: left;
     margin: 4.2rem auto;
   }
   .main-contents__contact .contact-image img {
@@ -1827,24 +1830,21 @@ body {
     overflow: hidden;
   }
   .main-contents__contact .contact-info-area .contact-text {
-    float: right;
+    float: left;
     display: block;
     width: 70%;
     margin-top: 4.8rem;
   }
   .main-contents__contact .contact-info-area .contact-text dl {
     margin: 0 auto 2.4rem auto;
-    display: flex;
-    align-items: center;
-    flex-wrap: wrap;
     width: 100%;
   }
   .main-contents__contact .contact-info-area .contact-text dl dt {
-    margin: 0 0% 0 20%;
+    margin: 0 0 1.2rem 20%;
     font-size: 1.8rem;
-    width: 8rem;
   }
   .main-contents__contact .contact-info-area .contact-text dl dd {
+    margin-left: 25%;
     font-size: 1.8rem;
   }
   .main-contents__contact .contact-info-area .contact-text dl dd a {
@@ -1856,7 +1856,7 @@ body {
   }
   .main-contents__contact .contact-info-area .contact-image {
     width: 30%;
-    float: right;
+    float: left;
     margin-bottom: 4.2rem;
     margin-top: 4.2rem;
   }

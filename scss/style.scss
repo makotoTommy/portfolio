@@ -1,20 +1,11 @@
 @import url('https://fonts.googleapis.com/css?family=Alegreya|Alegreya+SC|Cantata+One|Crete+Round|Fenix|IM+Fell+French+Canon+SC|Jomhuria|Kotta+One|Lusitana|Lustria|Rufina|Stardos+Stencil|Vidaloka|Abel');
 
-
-$textWhiteColor :#F0F3F5 ;
+$textWhiteColor :#F0F3F5;
 $textBlackColor :#231815;
 
 html{
-    // font-family: 'Cantata One', serif;
-    // font-family: "Times New Roman";
-    // font-family: 'IM Fell French Canon SC', serif;
-    // font-family: 'Lusitana', serif;
-    // font-family: 'Rufina', serif;
-    // font-family: 'Stardos Stencil', cursive;
-    // font-family: 'Cantata One', serif;
     font-size: 62.5%;
     font-family: 游ゴシック体, "Yu Gothic", YuGothic, sans-serif;
-    // font-family: 'Abel', sans-serif;
 }
 body{
     background-color: rgba(240,247,252,1.0);
@@ -599,26 +590,27 @@ body{
                 font-size: 1.6rem;
                 line-height: 2.4rem;
                 font-weight: 400;
-                margin-bottom:0.8rem;
+                margin-bottom:1.8rem;
             }
             .contact-info-area{
                 overflow: hidden;
 
                 .contact-text{
-                    margin-top:4.0rem;
+                    width:100%;
                     display:block;
                     dl{ 
-                        margin:0 auto 2.4rem auto;
+                        //margin:0 auto 2.4rem auto;
                         display:block;
                         width:100%;
                         
                         dt{
-                            margin: 0 0% .6rem 0%;
+                            margin: 0 0 .6rem 1.2rem;
                             font-size: 1.8rem;
                         }
                         dd{
-                            margin-left:2.2rem;
+                            margin-left:3.2rem;
                             font-size: 1.8rem;
+                            //text-align: center;
                             a{
                                 text-decoration: none;
                                 color: $textBlackColor;
@@ -631,15 +623,20 @@ body{
                 }
             }
             .contact-image{
-                width:30%;
-                float:right;
-                margin:2.4rem auto;
+                overflow: hidden;
                 img{
+                    float:right;
                     padding:1.5%;
                     border:0.75% solid #ccc;
                     background:#fff;
                     box-shadow: 0.1rem 0.1rem 1rem rgba(0, 0, 0, 0.15);
-                    width:90%;
+                    width:40%;
+                    margin:1.8rem ;
+
+                    -moz-transform:rotate(2deg);
+                    -webkit-transform:rotate(2deg);
+                    -ms-transform:rotate(2deg);
+                    transform:rotate(2deg);
                 }
             }
         }
@@ -1381,8 +1378,9 @@ body{
                 overflow: hidden;
                 margin:0 auto;
                 width:80%;
+
                 .contact-text{
-                    float:right;
+                    float:left;
                     margin-top:4.0rem;
                     display:block;
                     width:70%;
@@ -1390,14 +1388,16 @@ body{
                         margin:0 auto 2.8rem auto;
                         display:block;
                         width:100%;
-                        
+                        //outline:1px solid red;
                         dt{
-                            margin: 0 0% 1.0rem 0%;
+                            margin: 0 0 1.0rem 0;
                             font-size: 1.8rem;
+                            //outline:1px solid red;
                         }
                         dd{
-                            margin-left:2.2rem;
+                            margin-left: 2.2rem;
                             font-size: 1.8rem;
+                            //outline:1px solid blue;
                             a{
                                 text-decoration: none;
                                 color: $textBlackColor;
@@ -1411,7 +1411,7 @@ body{
             }
             .contact-image{
                 width:30%;
-                float:right;
+                float:left;
                 margin:4.2rem auto;
                 img{
                     padding:1.5%;
@@ -2086,23 +2086,20 @@ body{
                 overflow: hidden;
                 
                 .contact-text{
-                    float:right;
+                    float:left;
                     display:block;
                     width:70%;
                     margin-top:4.8rem;
+                    //outline:1px solid red;
                     dl{ 
                         margin:0 auto 2.4rem auto;
-                        display:flex;
-                        align-items: center;
-                        flex-wrap: wrap;
                         width:100%;
-                        
                         dt{
-                            margin: 0 0% 0 20%;
+                            margin: 0 0 1.2rem 20%;
                             font-size: 1.8rem;
-                            width:8rem;
                         }
                         dd{
+                            margin-left:25%;
                             font-size: 1.8rem;
                             a{
                                 text-decoration: none;
@@ -2116,7 +2113,7 @@ body{
                 }
                 .contact-image{
                     width:30%;
-                    float:right;
+                    float:left;
                     margin-bottom:4.2rem;
                     margin-top:4.2rem;
                     img{
